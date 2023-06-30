@@ -7,7 +7,7 @@ Installing Odoo 12 with one command.
 Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run:
 
 ``` bash
-curl -s https://raw.githubusercontent.com/mina2047/Hello-odoo12/master/run.sh | sudo bash -s odoo-one 10012 20012
+curl -s https://raw.githubusercontent.com/mina2047/Hello-odoo12/master/run.sh | sudo bash -s odoo-twelve 10012 20012
 ```
 
 to set up first Odoo instance @ `localhost:10012` (default master password: `mostafa@1234`)
@@ -21,7 +21,7 @@ curl -s https://raw.githubusercontent.com/mina2047/Hello-odoo12/master/run.sh | 
 to set up another Odoo instance @ `localhost:11012` (default master password: `mostafa@1234`)
 
 Some arguments:
-* First argument (**odoo12-one**): Odoo deploy folder
+* First argument (**odoo12-twelve**): Odoo deploy folder
 * Second argument (**10012**): Odoo port
 * Third argument (**20012**): live chat port
 
